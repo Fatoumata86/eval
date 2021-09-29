@@ -1,0 +1,11 @@
+<h2>Random student</h2>
+
+<ul>
+    {{#each students}}
+      <li>{{this}}</li>
+    {{/each }}
+</ul>
+
+<form action="/random" method="get">
+    <button type="submit">RANDOM</button>
+</form>
